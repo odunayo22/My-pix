@@ -6,7 +6,7 @@
 
 body{
     background: linear-gradient(to right, rgb(145, 146, 144), rgb(150, 255, 80));
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,8 @@ body{
     width: 200px;
     height:200px;
     transform-style: preserve-3d;
-    animation: rotate 30s linear infinite;
+   /* animation: rotate 30s linear infinite;*/
+    animation:  rotate 20s alternate-reverse infinite;
 }
 
 @keyframes rotate{
